@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40465bfa875caab309341d96a0ddba0e, type: 3}
-  m_Name: StartingState
+  m_Name: A1.OutsideHangar
   m_EditorClassIdentifier: 
   storyText: 'Festers. Everywhere. Armed mostly with gas-powered rock flingers.
 
@@ -33,3 +33,6 @@ MonoBehaviour:
     way to the emergency exit.
 
 '
+  nextStates:
+  - {fileID: 11400000, guid: cad4f7f148496b47aa53f71365b4fd51, type: 2}
+  - {fileID: 11400000, guid: 1f9bb48e04651b3a0aafee9f17e69047, type: 2}
